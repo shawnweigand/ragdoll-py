@@ -1,4 +1,4 @@
-from langchain.document_loaders import GoogleDriveLoader
+from langchain_community.document_loaders import GoogleDriveLoader
 # from langchain_google_community import GoogleDriveLoader
 # from langchain_googledrive.document_loaders import GoogleDriveLoader
 

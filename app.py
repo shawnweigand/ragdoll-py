@@ -119,7 +119,7 @@ def parse_youtube_video_transcript(video_id: str):
 
 # YouTube Channel
 @app.route('/api/youtube/channel/<channel_id>', methods=['POST'])
-def parse_youtube_video_transcript(video_id: str):
+def parse_youtube_video_channel(channel_id: str):
     # Extract meta and tags from the request
     data = request.get_json()
     meta = data.get("meta", [])

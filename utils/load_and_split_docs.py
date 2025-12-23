@@ -31,6 +31,7 @@ def load_and_split_docs(
             f.write(f"Error loading documents: {e}\n")
         return
 
+    print(docs)
     ragdoll = RagdollService()
     
     # Loop docs
